@@ -1,0 +1,15 @@
+Partial Least Squares Regression Model:
+Optimal Number of Components: n=4
+
+K Nearest Neighbors Regrssion Model:
+Optimal Number of Neighbors: 23
+KNeighborsRegressor(n_neighbors=23, weights='distance', algorithm='kd_tree', p=1)
+
+Random Forest Models:
+
+- Randomized Search:
+RandomForestRegressor(max_depth=7, max_features=0.3, min_samples_leaf=2,
+                      min_samples_split=6, n_estimators=800)
+- Bayesian Optimization:
+RandomForestRegressor(bootstrap=True, criterion='squared_error', max_depth=8,
+		      max_features=0.3, min_samples_leaf=3, n_estimators=1400)
